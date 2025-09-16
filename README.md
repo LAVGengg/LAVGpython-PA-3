@@ -64,6 +64,23 @@ indexing operations.
    
     d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4
             Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
-                Name: Surname, First Name MI.
-                    Section: 2ECE-X Date Submitted: January X, 202X
+
+
+   *1 Code Expected to See in the file*
+
+   ```python
+   cars.iloc[ 0:5, 0:13:2 ]
+   ```
+| Model               | cyl |  hp |  wt   | vs | gear |
+|---------------------|-----|-----|-------|----|------|
+| Mazda RX4           | 6   | 110 | 2.620 | 0  | 4    |
+| Mazda RX4 Wag       | 6   | 110 | 2.875 | 0  | 4    |
+| Datsun 710          | 4   | 93  | 2.320 | 1  | 4    |
+| Hornet 4 Drive      | 6   | 110 | 3.215 | 1  | 3    |
+| Hornet Sportabout   | 8   | 175 | 3.440 | 0  | 3    |
+
+```
+cars.loc[ cars['Model'] == 'Mazda RX4' ]
+```
+
 
