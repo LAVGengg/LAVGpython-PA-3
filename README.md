@@ -7,3 +7,12 @@
     a. Load the corresponding .csv file into a data frame named cars using pandas
    
     b. Display the first five and last five rows of the resulting cars
+
+   *Example*
+
+   ``` python 
+   import pandas as pd
+   cars = pd.read_csv('cars.csv')
+   
+  ```
+   
