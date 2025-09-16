@@ -8,12 +8,12 @@
    
     b. Display the first five and last five rows of the resulting cars
 
-   *Example*
+*Example*
 
-   ``` python 
-   import pandas as pd
-   cars = pd.read_csv('cars.csv')
-   ```
+``` python 
+import pandas as pd
+cars = pd.read_csv('cars.csv')
+```
 | Model               | mpg  | cyl | disp  | hp  | drat | wt    | qsec  | vs | am | gear | carb |
 |---------------------|------|-----|-------|-----|------|-------|-------|----|----|------|------|
 | Mazda RX4           | 21.0 | 6   | 160.0 | 110 | 3.90 | 2.620 | 16.46 | 0  | 1  | 4    | 4    |
@@ -66,11 +66,11 @@ indexing operations.
             Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
 
-   *1 Code Expected to See in the file*
+*1 Code Expected to See in the file*
 
-   ```python
-   cars.iloc[ 0:5, 0:13:2 ]
-   ```
+```python
+cars.iloc[ 0:5, 0:13:2 ]
+```
 | Model               | cyl |  hp |  wt   | vs | gear |
 |---------------------|-----|-----|-------|----|------|
 | Mazda RX4           | 6   | 110 | 2.620 | 0  | 4    |
