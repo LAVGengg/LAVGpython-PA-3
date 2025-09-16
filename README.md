@@ -49,7 +49,8 @@ cars = pd.read_csv('cars.csv')
 | Maserati Bora       | 15.0 | 8   | 301.0 | 335 | 3.54 | 3.570 | 14.60 | 0  | 1  | 5    | 8    |
 | Volvo 142E          | 21.4 | 4   | 121.0 | 109 | 4.11 | 2.780 | 18.60 | 1  | 1  | 4    | 2    |
 
-   ```
+   ```python
+    cars.head()
    cars.tail()
   ```
 
@@ -79,8 +80,8 @@ cars.iloc[ 0:5, 0:13:2 ]
 | Hornet 4 Drive      | 6   | 110 | 3.215 | 1  | 3    |
 | Hornet Sportabout   | 8   | 175 | 3.440 | 0  | 3    |
 
-```
-cars.loc[ cars['Model'] == 'Mazda RX4' ]
+```python
+cars.loc[cars['Model'] == 'Mazda RX4' ]
 ```
 
 
